@@ -23,6 +23,7 @@ Implementation using C or pyhton code
 Testing algorithm with different key values. 
 
 ## PROGRAM:
+~~~
 #include<stdio.h>
 #include <string.h>
 #include<conio.h>
@@ -59,8 +60,9 @@ printf("%c",plain[i]);
 }
 return 0;
 }
-
+~~~
 ## OUTPUT:
+![CC](https://github.com/Aashika77/Cryptography---19CS412-classical-techqniques/assets/119291088/743b5c20-3e86-474a-8ee9-1cc8b5f253df)
 
 ## RESULT:
 The program is executed successfully
@@ -89,6 +91,7 @@ Implementation using C or pyhton code
 Testing algorithm with different key values. 
 
 ## PROGRAM:
+~~~
 #include<stdio.h>
 #include<conio.h>
 #include<string.h>
@@ -214,8 +217,9 @@ i++;
 }
 return 0;
 }
-
+~~~
 ## OUTPUT:
+![PL](https://github.com/Aashika77/Cryptography---19CS412-classical-techqniques/assets/119291088/b33d44dd-0344-42c7-8df0-e276922d10da)
 
 ## RESULT:
 The program is executed successfully
@@ -245,6 +249,7 @@ Implementation using C or pyhton code
 Testing algorithm with different key values. 
 
 ## PROGRAM:
+~~~
 #include<stdio.h>
 #include<conio.h>
 #include<string.h>
@@ -289,7 +294,9 @@ printf(" %c",c[i]+65);
 getch();
 return 0;
 }
+~~~
 ## OUTPUT:
+![HILL](https://github.com/Aashika77/Cryptography---19CS412-classical-techqniques/assets/119291088/e6178b5f-4f58-47ae-b734-ab5a05265686)
 
 ## RESULT:
 The program is executed successfully
@@ -318,6 +325,7 @@ Implementation using C or pyhton code
 Testing algorithm with different key values. 
 
 ## PROGRAM:
+~~~
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
@@ -381,7 +389,9 @@ printf("%c",65 + (value % 26));
 }
 return 0;
 }
+~~~
 ## OUTPUT:
+![VEN](https://github.com/Aashika77/Cryptography---19CS412-classical-techqniques/assets/119291088/e8a3cb39-7cf1-4052-aaf3-26799646e2b4)
 
 ## RESULT:
 The program is executed successfully
@@ -410,6 +420,7 @@ Implementation using C or pyhton code
 Testing algorithm with different key values. 
 
 ## PROGRAM:
+~~~
 #include<stdio.h>
 #include<conio.h>
 #include<string.h>
@@ -421,7 +432,6 @@ printf("\n\t\t RAIL FENCE TECHNIQUE");
 printf("\n\nEnter the input string : ");
 gets(a);
 l=strlen(a);
-/Ciphering/
 for(i=0,j=0;i<l;i++)
 {
 if(i%2==0)
@@ -435,7 +445,6 @@ c[j++]=a[i];
 c[j]='\0';
 printf("\nCipher text after applying rail fence :");
 printf("\n%s",c);
-/Deciphering/
 if(l%2==0)
 k=l/2;
 else
@@ -455,8 +464,10 @@ printf("\nText after decryption : ");
 printf("%s",d);
 return 0;
 }
-
+~~~
 ## OUTPUT:
+![RAIL](https://github.com/Aashika77/Cryptography---19CS412-classical-techqniques/assets/119291088/05015057-6a2b-4e44-a437-503f5c21fdff)
+
 
 ## RESULT:
 The program is executed successfully
